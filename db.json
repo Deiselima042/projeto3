@@ -1,18 +1,84 @@
 {
-    "produtos":[
+  "salas": [
     {
-        "id": 2,
-        "nome": "Hambúrguer",
-        "descrição": "Pão, Bífe de Hambúrguer,salada e batata",
-        "preço": 8.5,
-        "categoria_id": 1
+      "id": 1,
+      "numero_de_assentos": "60",
+      "preço_do_ingresso": "29,90",
+      "fileiras": "6",
+      "data_de_construção": "2012"
     },
     {
-        "id": 2,
-        "nome": "X-Burguer",
-        "descrição":"Pão, Bífe de Hambúrguer, 1 fatia de queijo, salada e batata",
-        "preço": 10.5,
-        "categoria_id": 1
+      "id": 2,
+      "numero_de_assentos": "50",
+      "preço_do_ingresso": "25,90",
+      "fileiras": "5",
+      "data_de_construção": "2019"
+    },
+    {
+      "id": 3,
+      "numero_de_assentos": "40",
+      "preço_do_ingresso": "19,90",
+      "fileiras": "4",
+      "data_de_construção": "2020"
+    },
+    {
+      "id": 4,
+      "numero_de_assentos": "30",
+      "preço_do_ingresso": "15,90",
+      "fileiras": "3",
+      "data_de_construção": "2021"
     }
-    ]
+  ],
+  "comidas": [
+    {
+      "id": 1,
+      "tipo_de_comida": "pipoca",
+      "preço": "29,90",
+      "tamanho_do_pote":"grande"
+    },
+    {
+      "id": 2,
+      "tipo_de_comida": "refrigerante",
+      "preço": "9,90",
+      "tamanho_do_copo":"500ml"
+    },
+    {
+      "id": 3,
+      "tipo_de_comida": "bala de goma",
+      "preço": "5,90",
+      "peso_liquido":"30g"
+    },
+    {
+      "id": 4,
+      "tipo_de_comida": "hamburguer",
+      "preço": "10,90",
+      "ingredientes":"carne, ovo, alface, tomate, molho de cria"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "Se beber não case 2",
+      "data_de_lançamento": "13/10/2003",
+      "genero": "comédia"
+    },
+    {
+      "id": 2,
+      "nome": "Se beber não case 1",
+      "data_de_lançamento": "23/01/2000",
+      "genero": "comédia"
+    },
+    {
+      "id": 3,
+      "nome": "Se beber não case 3",
+      "data_de_lançamento": "08/05/2005",
+      "genero": "comédia"
+    },
+    {
+      "id": 4,
+      "nome": "Jackass",
+      "data_de_lançamento": "11/04/2006",
+      "genero": "comédia"
+    }
+  ]
 }
