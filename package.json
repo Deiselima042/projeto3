@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "name": "server_3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
